@@ -1,5 +1,5 @@
 .contentHome{
-    font-family: 'Michroma', sans-serif
+    font-family: 'Michroma', sans-serif;
     font-size: 30px;
     margin-left: 5%;
     margin-top: 5%;
@@ -12,7 +12,7 @@
   }
 
   nav{
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-left: 70%;
     
@@ -30,7 +30,7 @@
     text-align: center;
     color: #000000;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
