@@ -34,12 +34,21 @@
     font-family: 'Michroma', sans-serif;
     width: 60%;
     margin-left: auto;
-    margin-right: auto;
-      
-    
+    margin-right: auto;  
   }
+
+.projectDisplay{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .projectBlock img{
 width: 50%;
 height: auto;
 }
+
+.projectTitle{
+    font-family: 'Michroma', sans-serif;
+    font-size: 26px;
+}
+
