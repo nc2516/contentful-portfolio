@@ -92,6 +92,11 @@ height: auto;
           align-items: center;
       }
     
+    
+      li{
+          margin-top: 10px;
+      }
+    
     .projectBlock{
         flex-direction: column;
     }
