@@ -1,0 +1,158 @@
+.contentHome{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  
+  .contentHome a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .nav-links{
+      display: flex;
+      flex-direction: row;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+  }
+  
+  .nav-links a{
+    text-decoration: none;
+    padding: 20px;
+    color: #797979;
+  }
+
+  .current li a{
+    color: #000000;      
+}
+
+  .nav-links li{
+      list-style: none;
+  }
+
+  .nav-links a:hover{
+      color: #000000;
+  }
+
+  h1 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #606060;
+    font-size: 26px;
+    font-family: 'Michroma', sans-serif;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+      
+    
+  }
+
+  img{
+    margin-top: 3%;
+    width: 300px;
+    height: auto;
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 45%;
+}
+
+.videos{
+    display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+
+}
+
+a{
+    color: #797979
+}
+
+  @media screen and (max-width: 780px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+
+      .nav-links{ 
+          flex-direction: column;
+          align-items: center;
+      }
+
+
+      li{
+        margin-top: 10px;
+    }
+    img{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 18px;
+        }
+
+        .wrapper{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-top: 0px;
+           
+            
+        }
+        .left{
+            width: 100%;
+        }
+        
+        .right{
+            width: 100%;
+        }
+    
+        p{
+            font-size: 14px;
+        }
+        .videos{
+            width: 100%;
+            flex-direction: column;
+        }
+
+}
+
