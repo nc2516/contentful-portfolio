@@ -11,8 +11,7 @@
     text-decoration: none;
     color: #000000;
   }
-
-  nav{
+ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +20,7 @@
 
   .nav-links{
       display: flex;
-      justify-content: space-between;
+      flex-direction: row;
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
   }
@@ -29,11 +28,19 @@
   .nav-links a{
     text-decoration: none;
     padding: 20px;
-    color: #000000;
+    color: #797979;
   }
+
+  .current li a{
+    color: #000000;      
+}
 
   .nav-links li{
       list-style: none;
+  }
+
+  .nav-links a:hover{
+      color: #000000;
   }
 
   h1 {
