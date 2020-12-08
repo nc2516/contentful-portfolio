@@ -1,8 +1,9 @@
 .contentHome{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Michroma', sans-serif;
     font-size: 30px;
-    margin-left: 5%;
-    margin-top: 4%;
+    text-align: center;
     
   }
   
@@ -12,18 +13,28 @@
   }
 
   nav{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-  margin-left: 70%;
-      
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
   }
+
+  .nav-links{
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+  }
   
-  nav a{
+  .nav-links a{
     text-decoration: none;
     padding: 20px;
     color: #000000;
+  }
+
+  .nav-links li{
+      list-style: none;
   }
 
   h1 {
@@ -31,27 +42,42 @@
     margin-bottom: 5%;
     text-align: center;
     color: #000000;
-    font-size: 25px;
+    font-size: 26px;
     font-family: 'Michroma', sans-serif;
     width: 60%;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
+      
+    
   }
 
 .projectBlock{
-    width: 80%;
-   margin-left: auto;
-   margin-right: auto;  
-}
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .projectBlock img{
 width: 60%;
 height: auto;
-
 }
 
 .projectTitle{
     font-family: 'Michroma', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
 }
 
+
+@media screen and (max-width: 780px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+
+      .nav-links{ 
+          flex-direction: column;
+          align-items: center;
+      }
+}
