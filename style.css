@@ -40,7 +40,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
-    color: #000000;
+    color: #303030;
     font-size: 26px;
     font-family: 'Michroma', sans-serif;
     width: 60%;
@@ -68,7 +68,7 @@
   }
 
 .projectBlock img{
-width: 600px;
+width: 450px;
 height: auto;
 }
 
@@ -99,5 +99,9 @@ height: auto;
      .projectBlock img{
         width: 95%;
         height: auto;
+        }
+    
+    h1 {
+        font-size: 16px;
         }
 }
