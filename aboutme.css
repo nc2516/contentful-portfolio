@@ -73,6 +73,10 @@
     width: 40%;
 }
 
+a{
+    color: #797979
+}
+
 @media screen and (max-width: 780px){
 
     nav{
