@@ -55,9 +55,9 @@
     margin-top: 2%;
     margin-bottom: 5%;
     text-align: center;
-    color: #606060;
+    color: #D04D3C;
     font-size: 26px;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -91,7 +91,7 @@
 }
 
 .right{
-    width: 45%;
+    width: 40%;
 }
 
 .videos{
