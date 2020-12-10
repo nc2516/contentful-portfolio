@@ -51,9 +51,6 @@
       color: #D04D3C;
   }
 
-  .current li a{
-    color: #000000;      
-}
 
   .nav-links li{
       list-style: none;
@@ -67,9 +64,9 @@
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
-    color: #303030;
+    color: #D04D3C;
     font-size: 26px;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
