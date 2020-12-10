@@ -96,6 +96,18 @@
 .projectBlock img{
 width: 300px;
 height: auto;
+     -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+.projectBlock img:hover{
+    -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
 }
 
 
@@ -134,4 +146,11 @@ height: auto;
     .projectTitle{
     font-size: 16px;
 }
+    
+    .projectBlock img{
+         -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+    }
 }
