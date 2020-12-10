@@ -1,17 +1,25 @@
 .contentHome{
     margin: 0px;
     padding: 0px;
-    font-family: 'Michroma', sans-serif;
-    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
     text-align: center;
+
     
   }
   
   .contentHome a{
     text-decoration: none;
-    color: #000000;
+    color: #D04D3C;
   }
- nav{
+
+  .contentHome img{
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,7 +36,19 @@
   .nav-links a{
     text-decoration: none;
     padding: 20px;
-    color: #797979;
+    color: #E5B5C1;
+  }
+
+  .current li a{
+    color: #D04D3C;      
+}
+
+  .nav-links li{
+      list-style: none;
+  }
+
+  .nav-links a:hover{
+      color: #D04D3C;
   }
 
   .current li a{
@@ -70,6 +90,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
       display: flex;
     flex-direction: row;
     flex-wrap: wrap;
