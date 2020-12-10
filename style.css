@@ -101,8 +101,7 @@ height: auto;
 }
 
 
-
-.overlay {
+.projectBlock a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -115,7 +114,7 @@ height: auto;
   background-color: #E5B5C1;
 }
 
-.projectBlock:hover .overlay {
+.projectBlock:hover a {
   opacity: 1;
 }
 
