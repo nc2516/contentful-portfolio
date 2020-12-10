@@ -57,6 +57,14 @@
     
   }
 
+.container{
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
 
 .projectBlock{
     margin-left: auto;
@@ -70,7 +78,7 @@
   }
 
 .projectBlock img{
-width: 50%;
+width: 300px;
 height: auto;
 }
 
@@ -98,15 +106,13 @@ height: auto;
       li{
           margin-top: 10px;
       }
-    
+    .container{
+        flex-direction: column;
+    }
     .projectBlock{
         flex-direction: column;
     }
     
-     .projectBlock img{
-        width: 95%;
-        height: auto;
-        }
     
     h1 {
         font-size: 16px;
