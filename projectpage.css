@@ -1,15 +1,22 @@
 .contentHome{
     margin: 0px;
     padding: 0px;
-    font-family: 'Michroma', sans-serif;
-    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
     text-align: center;
+
     
   }
   
   .contentHome a{
     text-decoration: none;
-    color: #000000;
+    color: #D04D3C;
+  }
+
+  .contentHome img{
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
   }
 
   nav{
@@ -29,11 +36,11 @@
   .nav-links a{
     text-decoration: none;
     padding: 20px;
-    color: #797979;
+    color: #E5B5C1;
   }
 
   .current li a{
-    color: #000000;      
+    color: #D04D3C;      
 }
 
   .nav-links li{
@@ -41,7 +48,7 @@
   }
 
   .nav-links a:hover{
-      color: #000000;
+      color: #D04D3C;
   }
 
   h1 {
